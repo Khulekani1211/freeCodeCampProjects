@@ -1,0 +1,15 @@
+#search-input{
+  margin-bottom: 32px;
+}
+
+#pokemon-name, #pokemon-id{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.type{
+  display: inline;
+  margin-right: 14px;
+}
+
