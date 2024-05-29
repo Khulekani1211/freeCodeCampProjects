@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+#main{
+  background-color:rgb(255, 247, 238);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#title{
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+p{
+  text-align: center;
+  font-size: .8rem;
+}
+
+#img-div{
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption{
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+#tribute-info{
+  margin: 0 auto;
+  width: 500px;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  font-size: 1rem;
+  text-align: center;
+}
