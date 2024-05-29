@@ -33,6 +33,10 @@ p{
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  text-align: center;
+}
+img{
+  display: block;
 }
 
 #img-caption{
@@ -43,6 +47,10 @@ p{
 #tribute-info{
   margin: 0 auto;
   width: 500px;
+}
+
+li{
+  margin-bottom: 1.2rem;
 }
 
 h2{
