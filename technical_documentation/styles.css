@@ -15,6 +15,7 @@ h1, h2{
 
 h1{
   text-align: center;
+  font-size: 2rem;
 }
 
 #main-doc{
@@ -31,4 +32,25 @@ pre{
   background-color: rgb(245, 245, 245);
   margin-left: 2em;
   color: rgb(116, 116, 116);
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  overflow:scroll;
+  border: 2px solid #000;
+  width: 100%;
+  margin: 0;
+  border-left: none;
+  border-right: none;
+}
+
+nav a{
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid rgb(116, 116, 116);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-weight: 300;
 }
