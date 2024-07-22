@@ -37,7 +37,7 @@ pre{
 .links{
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 200px;
   overflow:scroll;
   border: 2px solid #000;
   width: 100%;
@@ -53,4 +53,21 @@ nav a{
   text-decoration: none;
   color: rgb(83, 83, 83);
   font-weight: 300;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (min-width: 900px) {
+  body{
+    display: flex;
+  }
+
+  nav{
+    border-right: 3px solid rgb(175, 175, 175);
+  }
+
+  .links{
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+  }
 }
