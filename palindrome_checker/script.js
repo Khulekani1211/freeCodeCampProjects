@@ -1,7 +1,8 @@
 const input = document.querySelector('input')
-
+let inputText = document.getElementById('text-input')
 const checkBtn = document.getElementById('check-btn')
 const result = document.getElementById('result')
+const required = document.getElementById('required')
 
 // let string1 = "abcd"
 // let string2 = [];
@@ -16,9 +17,22 @@ const result = document.getElementById('result')
 //Input Text event listener
 input.addEventListener('change', () => {
 
-  const inputText = input.value.toLowerCase()
-  console.log(inputText)
+  inputText.value = input.value.toLowerCase()
 
+})
+let textInput = inputText.value
+console.log(textInput)
+
+
+//Listener for the click event
+checkBtn.addEventListener('click', () =>{
+  if(textInput == ''){
+    required.innerHTML = "Input Text is Required"
+  }else{
+    console.log(checkPalindrome(textInput))
+  }
+
+  
 })
 
 //Check Palindrome Function
@@ -40,4 +54,4 @@ const checkPalindrome = (inputText) => {
   return isPalindrome
 }
 
-console.log(checkPalindrome("hello"))
+//console.log(checkPalindrome("hello"))
